@@ -1,0 +1,27 @@
+.card{
+    margin-top: 60px;
+}
+
+.card h2{
+    color: rgba(0, 0, 0, 0.6);
+    margin: 20px 20px;
+}
+mat-card-subtitle{
+    margin-bottom: 30px;
+}
+
+mat-form-field{
+    width: 100%;
+    margin: 5px;
+}
+form{
+    padding: 10px 20px;
+}
+
+.btnAceptar{
+    margin-right: 30px;
+}
+
+.btnVolver{
+    margin-left: 30px;
+}
