@@ -58,8 +58,16 @@ $ "Server=[TUSERVIDOR]; DataBase=Veterinaria; Trusted_Connection=True; TrustServ
  * Swashbuckle.AspNetCore (6.2.3)
  En caso de ya estar instalados omitir este paso.
 
-********************** Base de Datos - C# **********************
+************************ Base de Datos - C# ************************
 - Ejecutamos el script bd.sql que se encuentra ubicado en la
 carpeta ScriptDB
+
+********************** Levantamos el Proyecto **********************
+- Abrimos la solucion BackendCrud.sln (BackEnd) con Visual Studio 2022.
+- Ejecutamos el proyecto
+
+- Dentro de la carpeta CrudMascotas (FrontEnd) abrimos la terminal y ejecutamos
+el comando: 
+$ ng serve -o
 
 ```
