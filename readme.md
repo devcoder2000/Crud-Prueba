@@ -1,60 +1,65 @@
 # CRUD - PRUEBA
+* Prueba Entrada
+## Tabla de Contenido
+***
+1. [Información General](#información-general)
+2. [Tecnologías](#tecnologías)
+3. [Instalación](#instalación)
+
+## Información General
 ***
 Aplicacion CRUD realizada con las Angular, C#, SqlServer utilizando los editores de código Visual Studio Code (FrontEnd) y Visual Studio 2022 (BackEnd)
 
-## Tabla de Contenido
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
-
-### General Info
-***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it.
-
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
-
-## Technologies
+## Tecnologías
 ***
 A list of technologies used within the project:
 * [Angular CLI](https://angular.io/): Version 15.2.2 
 * [Node](https://nodejs.org/en/): Version 18.13.0
 * [Npm](https://www.npmjs.com/): Version 8.19.3
-* [.NET](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+* [.NET](https://dotnet.microsoft.com/en-us/download/dotnet/6.0): Version 6.0
 
-## Installation
+## Instalación
 ***
-A little intro about the installation. 
+Guia de instalación
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
+- Crea una carpeta con el nombre que desees.
+
+*********************** Configuracion FrontEnd ***********************
+
+- Abrimos el cmd en la ruta de esa carpeta.
+- Escribimos el siguiente comando:
+$ git clone https://github.com/devcoder2000/Crud-Prueba.git
+
+Ingresamos hasta la carpeta del FrontEnd (CrudMascotas)
+- Escribimos el siguiente comando:
+$ cd Crud-Prueba/CrudMascotas
+
+- Instalamos el npm (node_modules)
+- Escribimos el siguiente comando:
 $ npm install
-$ npm start
+
+
+*********************** Configuracion BackEnd ***********************
+
+********************** Visual Studio 2022 - C# **********************
+- Abrimos la solucion BackendCrud.sln con Visual Studio 2022.
+- Nos ubicamos en el Explorador de Soluciones.
+- Ubicamos el archivo appsettings.json
+- Modificamos nuestro servidor de base de datos:
+
+$ "Server=[TUSERVIDOR]; DataBase=Veterinaria; Trusted_Connection=True; TrustServerCertificate=True"
+
+- Instalamos las dependencias en el Administrador de Paquetes NuGet:
+
+ * AutoMapper.Extensions.Microsoft.DependencyInjection (12.0.0)
+ * Microsoft.EntityFrameworkCore (7.0.3)
+ * Microsoft.EntityFrameworkCore.SqlServer (7.0.3)
+ * Microsoft.EntityFrameworkCore.Tools (7.0.3)
+ * Swashbuckle.AspNetCore (6.2.3)
+ En caso de ya estar instalados omitir este paso.
+
+********************** Base de Datos - C# **********************
+- Ejecutamos el script bd.sql que se encuentra ubicado en la
+carpeta ScriptDB
+
 ```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
-
-## Collaboration
-***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
-
-## FAQs
-***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer of the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer of the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
