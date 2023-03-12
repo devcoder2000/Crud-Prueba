@@ -34,6 +34,10 @@ Ingresamos hasta la carpeta del FrontEnd (CrudMascotas)
 - Escribimos el siguiente comando:
 $ cd Crud-Prueba/CrudMascotas
 
+(En caso de no tener instalado angular)
+Instalarlo globalmente en la version 15.2.2
+$ npm install -g @angular/cli
+
 - Instalamos el npm (node_modules)
 - Escribimos el siguiente comando:
 $ npm install
