@@ -38,6 +38,9 @@ $ cd Crud-Prueba/CrudMascotas
 - Escribimos el siguiente comando:
 $ npm install
 
+- Utilizamos Angular Material
+$ ng add @angular/material
+
 
 *********************** Configuracion BackEnd ***********************
 
