@@ -65,7 +65,7 @@ $ "Server=[TUSERVIDOR]; DataBase=Veterinaria; Trusted_Connection=True; TrustServ
  * Swashbuckle.AspNetCore (6.2.3)
  En caso de ya estar instalados omitir este paso.
 
-************************ Base de Datos - C# ************************
+******************** Base de Datos - SqlServer *********************
 - Ejecutamos el script bd.sql que se encuentra ubicado en la
 carpeta ScriptDB
 
