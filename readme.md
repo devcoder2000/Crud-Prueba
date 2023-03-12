@@ -8,11 +8,11 @@
 
 ## Información General
 ***
-Aplicacion CRUD realizada con las Angular, C#, SqlServer utilizando los editores de código Visual Studio Code (FrontEnd) y Visual Studio 2022 (BackEnd)
+Aplicación CRUD realizada con Angular, C#, SqlServer utilizando los editores de código Visual Studio Code (FrontEnd), Visual Studio 2022 (BackEnd) como tambien SqlServer para la base de datos.
 
 ## Tecnologías
 ***
-A list of technologies used within the project:
+Lista de las tecnologías utilizadas en el proyecto
 * [Angular CLI](https://angular.io/): Version 15.2.2 
 * [Node](https://nodejs.org/en/): Version 18.13.0
 * [Npm](https://www.npmjs.com/): Version 8.19.3
@@ -24,7 +24,7 @@ Guia de instalación
 ```
 - Crea una carpeta con el nombre que desees.
 
-*********************** Configuracion FrontEnd ***********************
+*********************** Configuración FrontEnd ***********************
 
 - Abrimos el cmd en la ruta de esa carpeta.
 - Escribimos el siguiente comando:
@@ -34,7 +34,7 @@ Ingresamos hasta la carpeta del FrontEnd (CrudMascotas)
 - Escribimos el siguiente comando:
 $ cd Crud-Prueba/CrudMascotas
 
-(En caso de no tener instalado angular)
+(En caso de no tener instalado Angular)
 Instalarlo globalmente en la version 15.2.2
 $ npm install -g @angular/cli
 
@@ -46,10 +46,10 @@ $ npm install
 $ ng add @angular/material
 
 
-*********************** Configuracion BackEnd ***********************
+*********************** Configuración BackEnd ***********************
 
 ********************** Visual Studio 2022 - C# **********************
-- Abrimos la solucion BackendCrud.sln con Visual Studio 2022.
+- Abrimos la solución BackendCrud.sln con Visual Studio 2022.
 - Nos ubicamos en el Explorador de Soluciones.
 - Ubicamos el archivo appsettings.json
 - Modificamos nuestro servidor de base de datos:
@@ -63,6 +63,7 @@ $ "Server=[TUSERVIDOR]; DataBase=Veterinaria; Trusted_Connection=True; TrustServ
  * Microsoft.EntityFrameworkCore.SqlServer (7.0.3)
  * Microsoft.EntityFrameworkCore.Tools (7.0.3)
  * Swashbuckle.AspNetCore (6.2.3)
+
  En caso de ya estar instalados omitir este paso.
 
 ******************** Base de Datos - SqlServer *********************
@@ -70,11 +71,12 @@ $ "Server=[TUSERVIDOR]; DataBase=Veterinaria; Trusted_Connection=True; TrustServ
 carpeta ScriptDB
 
 ********************** Levantamos el Proyecto **********************
-- Abrimos la solucion BackendCrud.sln (BackEnd) con Visual Studio 2022.
+- Abrimos la solución BackendCrud.sln (BackEnd) con Visual Studio 2022.
 - Ejecutamos el proyecto
 
-- Dentro de la carpeta CrudMascotas (FrontEnd) abrimos la terminal y ejecutamos
-el comando: 
+- Dentro de la carpeta CrudMascotas (FrontEnd)
+- Abrimos la terminal y ejecutamos el comando:
+ 
 $ ng serve -o
 
 ```
